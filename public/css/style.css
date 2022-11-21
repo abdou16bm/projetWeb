@@ -1,0 +1,186 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #98b2dc;
+    height: 15%;
+    width: 100%;
+    float: left;
+}
+
+.header-logo{
+    float: left;
+    width: 25%;
+    margin-top: 1%;
+
+}
+.header-title{
+    text-align: center;
+    background-color: darkgrey;
+    float: right;
+    width: 73%;
+}
+
+nav{
+
+    height: 77%;
+    width: 20%;
+    float: left;
+}
+
+
+nav ul {
+    float: left;
+    list-style-type: none;
+
+    margin: 0; /* pour effacer les espaces*/
+    padding: 0;
+
+    width: 100%;
+
+}
+
+nav ul li a {
+    /*background-color: #9f7c7c;*/
+    padding: 8px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.global_content{
+    float: left;
+    height: auto;
+    background: yellow;
+}
+
+/* Change the link color on hover */
+nav ul li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+.content{
+    background-color: darkgrey;
+    /*height: 77%;*/
+    height: auto;
+    width: 80%;
+    float: left;
+}
+
+.article{
+    float: left;
+    width: 96%;
+    height: 40%;
+    /*background: red;*/
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 2%;
+
+}
+
+.article h2 {
+    float: left;
+    width: 98%;
+    /*background: aqua;*/
+    padding-left: 2%;
+    margin-bottom:  1%;
+}
+
+.article img{
+    float: left;
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.article p{
+    float: left;
+    width: 70%;
+    /*background: beige;*/
+    height: 30%;
+    border: #555555 1px solid;
+    padding: 2%;
+}
+
+footer{
+    background-color: aqua;
+    height: 8%;
+    width: 100%;
+    float: left;
+}
+
+
+
+.article-detail{
+    float: left;
+    width: 100%;
+}
+
+.img-container{
+    display: flex;
+    justify-content: space-around;
+    /*flex-direction: row;*/
+
+    float: left;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.img-container img{
+
+    width: 30%;
+}
+
+.article-detail h2{
+
+}
+.article-detail p{
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .header-logo{
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .header-title{
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+    .content{
+        width: 100%;
+    }
+
+    .article
+
+    .article img{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .article p{
+        width: 90%;
+        margin : 2%;
+        text-align: center;
+        border: none;
+        font-weight: bold;
+    }
+}
